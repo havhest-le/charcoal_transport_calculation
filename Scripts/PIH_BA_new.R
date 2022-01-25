@@ -2,6 +2,8 @@
 # Script to calculate the plume injection height #
 #####
 
+# Diff --> commit --> Push for GitHub
+
 rm(list = ls(all= TRUE))
 
 # Load packages
@@ -23,6 +25,7 @@ library(rhdf5)
 library(MODIS)
 library(purrr)
 library(plyr)
+library(disk.frame)
 
 
 suppressMessages(library(gdalUtils))
@@ -150,19 +153,17 @@ PIH_2_2007 <- PIH_select_years("_2007", PIH_2)
 PIH_2_2013 <- PIH_select_years("_2013", PIH_2)
 PIH_2_2014 <- PIH_select_years("_2014", PIH_2)
 
-PIH_in_list <- function(data_1, data_2, days){
+PIH_in_list <- function(data_1, data_2, days){ # merge file 1 and file 2 for entire extent
   
   list_1 <- list()
   list_2 <- list()
   
   for(o in data_1){
-    memory.limit(9999999999)
     get_data    <- get(load(o))
     list_1[[o]] <- get_data
   }
   
   for(i in data_2){
-    memory.limit(9999999999)
     get_data    <- get(load(i))
     list_2[[i]] <- get_data
   }
@@ -173,118 +174,17 @@ PIH_in_list <- function(data_1, data_2, days){
 
 
 Khamra_2001 <- PIH_in_list(data_1 = PIH_1_2001, data_2 = PIH_2_2001, days = c(1:104))
+save(Khamra_2001, file = glue("Results/PIH/Khamra_PIH/Khamra_2001_PIH.RData"))
 
 Khamra_2003 <- PIH_in_list(data_1 = PIH_1_2003, data_2 = PIH_2_2003, days = c(1:123))
-
-files <- files[which(str_detect(Khamra_2001,'PIH.R'))]
+save(Khamra_2003, file = glue("Results/PIH/Khamra_PIH/Khamra_2003_PIH.RData"))
 
 
 Khamra_2004 <- PIH_in_list(data_1 = PIH_1_2004, data_2 = PIH_2_2004, days = c(1:123))
-
 Khamra_2007 <- PIH_in_list(data_1 = PIH_1_2007, data_2 = PIH_2_2007, days = c(1:123))
 Khamra_2013 <- PIH_in_list(data_1 = PIH_1_2013, data_2 = PIH_2_2013, days = c(1:123))
 Khamra_2014 <- PIH_in_list(data_1 = PIH_1_2014, data_2 = PIH_2_2014, days = c(1:123))
 
-
-
-
-
-
-
-# list_2_2001$`Results/PIH/open_data/2_2001-05-01_PIH_open.RData` <- NULL
-
-
-# library(data.table)
-# try_data <- rbindlist(Map(merge, list_1_2001, list_2_2001, by = "date"))
-
-
-# try_function <- function(x, y, days){
-#                 rbind.fill(x[days], y[days])
-#                 }
-# 
-# Khamra_2014 <- try_function(x= list_1_2014, y  = list_2_2014, days = c(1:123))
-# 
-# for(o in PIH_1_2001){
-#     o <- PIH_1_2001[90]
-#     i <- PIH_2_2001[91]
-#     get_data_1          <- get(load(o))
-#     get_data_2          <- get(load(i))
-#     try <- rbind.fill(get_data_1, get_data_2)
-#     
-# }
-# 
-# 
-# 
-# for(o in PIH_2_2001){
-#   memory.limit(9999999999)
-#   get_data          <- get(load(o))
-#   list_2_2001[[o]]  <- get_data
-# }
-# 
-# 
-# 
-# 
-# data_PIH_frame_2001_1 <- do.call(rbind.data.frame, list_1_2001)
-# 
-# view(data_2001_1_frame)
-# 
-# for(o in PIH_2_2001){
-#   get_data         <- get(load(o))
-#   list_2_2001[[o]] <- get_data
-#   rbind(list_2_2001)
-# }
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# # 
-# # 
-# # get_data_PIH <- lapply(1:lenght(PIH_1_2001), function(list){
-# #     get_data <- get(load(o))
-# #     mylist   <- list
-# #  mylist[[o]] <- get_data
-# #  }))
-# 
-# PIH_2001_1 <- get_data_PIH(o = PIH_1_2001, list = list_1_2001)
-# PIH_2001_2 <- get_data_PIH()
-# 
-# 
-# get(load('C:/Users/isfar.Rdata'))
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# PIH_1_2001 <- PIH_select_years("1_2002", PIH_1)
-# PIH_1_2001
-# PIH_select_years <- function(year, data){
-#   Filter(function(e) grepl(year, e), data)
-# }
-# PIH_1_2001 <- PIH_select_years("1_2001", PIH_1)
-# PIH_1_2001
-# PIH_select_years <- function(year, data){
-#   Filter(function(e) grepl(year, e), data)
-# }
-# PIH_select_years <- function(year, data){
-#   Filter(function(e) grepl(year, e), data)
-# }
-# PIH_1      <- PIH_select_years("1_2", PIH_data)
-# PIH_2      <- PIH_select_years("2_2", PIH_data)
-# # single years
-# PIH_1_2001 <- PIH_select_years("_2002", PIH_1)
-# PIH_1_2001
-# # single years
-# PIH_1_2001 <- PIH_select_years("_2001", PIH_1)
-# PIH_1_2001
-# # single years
-# 
 
 
 
