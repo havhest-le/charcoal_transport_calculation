@@ -1,5 +1,5 @@
 #####
-## Statistical anaylsis of the linkage between FRP and wind speed, as a ########
+## Statistical anaylsis of the link between FRP and wind speed, as a ########
 ## function of measured PIH by MODIS ###########################################
 #####
 
