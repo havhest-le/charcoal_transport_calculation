@@ -1,5 +1,7 @@
 #####
-## Script to select the PIH daily values from the entire MODIS data set ########
+## Script to select the data set "Injection_Height" with daily values #
+## from MAIAC MODIS data product, calculate the different quantiles ###
+## and visualize the plume injection height distribution ##############
 #####
 
 rm(list = ls(all= TRUE))
