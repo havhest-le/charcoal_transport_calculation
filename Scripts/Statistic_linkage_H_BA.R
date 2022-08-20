@@ -1,5 +1,5 @@
 #####
-## Statistical anaylsis of the linkage between FRP and wind speed, as a ########
+## Statistical analysis of the linkage between FRP and wind speed, as a ########
 ## function of calculated PIH based on Vachula & Richter (2018) ################
 #####
 
