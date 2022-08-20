@@ -1,5 +1,5 @@
 #####
-## Script for wind field calculation over Yakutia, Russia ######################
+## Script for wind field calculation and visualization over Yakutia, Russia #######
 ## Based on the ERA5 reanalysis wind data, the modern wind patterns were calculated
 #####
 
