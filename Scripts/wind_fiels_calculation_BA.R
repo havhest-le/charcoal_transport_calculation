@@ -1,6 +1,7 @@
 #####
 ## Script for wind field calculation and visualization over Yakutia, Russia #######
-## Based on the ERA5 reanalysis wind data, the modern wind patterns were calculated
+## The wind variables (speed, direction and variance) were calculated based on the
+## u and v wind vector data from ERA5 reanalysis wind data ########################
 #####
 
 rm(list = ls(all= TRUE))
