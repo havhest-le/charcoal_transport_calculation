@@ -1,6 +1,6 @@
 #####
 ## Script for determination of geographical locations, the burn time and the 
-## number of active fires as well as their thermal energy output based on the
+## number of active fire data points as well as their thermal energy output based on the
 ## Thermal Anomalies/ Fire locations Collection 6.1 of MODIS
 #####
 
