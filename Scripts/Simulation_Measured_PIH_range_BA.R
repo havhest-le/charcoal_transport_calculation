@@ -1,5 +1,6 @@
 #####
-## Script to simulate potential modern source areas of charcoal ################
+## Script to simulate potential and actual modern source areas of charcoal using 
+## observed plume injection heights between the range of Q[0.2] and Q[0.8] #####
 #####
 
 
