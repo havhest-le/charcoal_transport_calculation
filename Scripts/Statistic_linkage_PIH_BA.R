@@ -1,6 +1,5 @@
 #####
-## Statistical analysis of the link between FRP and wind speed, as a ########
-## function of measured PIH by MODIS ###########################################
+## Statistical analysis of the link between FRP, observed PIH and wind speed #
 #####
 
 rm(list = ls(all= TRUE))
