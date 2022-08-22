@@ -9,24 +9,30 @@ rm(list = ls(all= TRUE))
 #####
 ## Load packages ###############################################################
 #####
-
+library(base)
+library(dplyr)
 library(tidyverse)
 library(sf)
-library(terra)
-library(stars)
-library(dplyr)
-library(glue)
 library(sp)
-library(raster)
-library(base)
+library(stars)
+library(stats)
+library(terra)
+library(glue)
 library(tibble)
 
-## Graphic-packages
+## optional
+library(raster)
+
+## Visualization
+library(ggnewscale)
+library(ggplot2)
+library(graphics)
+
 library(maps)
 library(viridis)
 library(RColorBrewer)
 library(colorspace)
-library(ggnewscale)
+
 
 #####
 ## Load and clean data #########################################################
