@@ -9,24 +9,31 @@ rm(list = ls(all= TRUE))
 #####
 ## Load packages ###############################################################
 #####
-
+library(base)
+library(circular)
+library(dplyr)
+library(geosphere)
+library(ncdf4)
 library(rgdal)
 library(rgeos)
-library(sp)
 library(raster)
+library(sp)
 library(sf)
-library(parallel)
-library(ncdf4)
 library(rnaturalearth)
 library(tidyverse)
+library(parallel)
 library(data.table)
 library(glue)
-library(circular)
+library(tidyr)
+
+## Visualization
+library(ggplot2)
+library(ggnewscale)
 library(ggpubr)
+library(graphics)
 library(gridExtra)
 library(ggsn)
-library(ggnewscale)
-library(tidyr)
+
 
 
 #####
