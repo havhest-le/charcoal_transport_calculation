@@ -4,7 +4,7 @@
 ## and visualize the plume injection height distribution ##############
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
