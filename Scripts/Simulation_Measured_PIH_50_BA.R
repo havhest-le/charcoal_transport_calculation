@@ -3,7 +3,7 @@
 ## using observed plume injection heights #######################################
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
