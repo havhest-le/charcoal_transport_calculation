@@ -4,7 +4,7 @@
 ## u and v wind vector data from ERA5 reanalysis wind data ########################
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
