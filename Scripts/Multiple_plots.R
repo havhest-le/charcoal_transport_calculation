@@ -2,7 +2,7 @@
 ## Script to visualize the results of the both study region in multiple plots ##
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
