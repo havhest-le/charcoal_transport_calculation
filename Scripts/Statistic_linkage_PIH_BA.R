@@ -2,7 +2,7 @@
 ## Statistical analysis of the link between FRP, observed PIH and wind speed #
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
