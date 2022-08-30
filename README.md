@@ -4,9 +4,8 @@ Calculation of Charcoal Transport from Source to Sink Based an Modern Forest Fir
 
 Bachelor thesis for obtaining the academic degree Bachelor of Science (B.Sc.) as part of the bachelor's degree program in geography 
 
-The overall research aim in this thesis is to determine the modern potential and actual source areas of charcoal particles in two compared study region in Yakutia (Russia) between 2001 and 2018 to improve paleoﬁre reconstruction. This requires to address the following questions:
-
 ______
+The overall research aim in this thesis is to determine the modern potential and actual source areas of charcoal particles in two compared study region in Yakutia (Russia) between 2001 and 2018 to improve paleoﬁre reconstruction. This requires to address the following questions:
 
 (i) What were the main factors that inﬂuenced the spatial distribution variability of the data sets used and aﬀected the vertical dispersion as well as horizontal transport of charcoal? 
 
