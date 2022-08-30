@@ -2,7 +2,7 @@
 ## Script for study area visualization #########################################
 ###
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 # load packages
 library(sp)
