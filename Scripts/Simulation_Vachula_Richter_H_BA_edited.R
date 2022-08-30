@@ -8,7 +8,7 @@
 ## changed to "calculated PIH" to allow better comparison with the 
 ## satellite-measured PIH from MODIS 
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
