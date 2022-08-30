@@ -4,7 +4,7 @@
 ## Thermal Anomalies/ Fire locations Collection 6.1 of MODIS
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 # Load packages ################################################################
