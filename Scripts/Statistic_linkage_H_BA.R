@@ -3,7 +3,7 @@
 ## function of calculated PIH based on Vachula & Richter (2018) ################
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 #####
 ## Load packages ###############################################################
