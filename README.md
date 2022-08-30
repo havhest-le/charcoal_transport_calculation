@@ -1,9 +1,6 @@
-# SiberiaWind_R
-
-Calculation of Charcoal Transport from Source to Sink Based an Modern Forest Fire Intensities and Wind Patters in Yakutia, Russia 
+# Calculation of Charcoal Transport from Source to Sink Based an Modern Forest Fire Intensities and Wind Patters in Yakutia, Russia 
 
 Bachelor thesis for obtaining the academic degree Bachelor of Science (B.Sc.) as part of the bachelor's degree program in geography 
-
 ______
 The overall research aim in this thesis is to determine the modern potential and actual source areas of charcoal particles in two compared study region in Yakutia (Russia) between 2001 and 2018 to improve paleoﬁre reconstruction. This requires to address the following questions:
 
