@@ -2,7 +2,7 @@
 ## Script for visualization the study areas ####################################
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 ######
 ## Load the packages ###########################################################
