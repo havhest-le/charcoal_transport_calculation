@@ -2,7 +2,7 @@
 # Script to test the OON distribution of the observed plume injection heights ##
 #####
 
-rm(list = ls(all= TRUE))
+## rm(list = ls(all= TRUE))
 
 ####
 ## Load packages ################################################################
